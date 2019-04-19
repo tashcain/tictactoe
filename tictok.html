@@ -1,0 +1,262 @@
+<html>
+    <head>
+        <title>tictactoe</title>
+        <link rel="stylesheet" href="tictok.css">
+       
+    </head>
+    
+    <body>
+     <div>
+         <span >Tic Tac Toe </span>
+     </div>           
+
+    
+       <div id="bigboard">
+        <div id="board">   
+        <div id="sec1">
+                <button class="btn1"  id="bt11" >1</button>
+            <button class="btn2" id="bt12" >1</button>
+        </div>
+        <div id="sec2" > 
+                <button class="btn1" id="bt21"  >1</button>
+                <button class="btn2" id="bt22" >1</button>
+            </div>
+            <div id="sec3">
+                    <button class="btn1"  id="bt31"  >1</button>
+                    <button class="btn2" id="bt32"  >1</button>
+                    
+                </div>
+                <div id="sec4">
+                        <button class="btn1" id="bt41"  >1</button>
+                        <button class="btn2" id="bt42"  >1</button>
+                    </div>
+                    <div id="sec5">
+                            <button class="btn1" id="bt51"  >1</button>
+                            <button class="btn2" id="bt52"  >1</button>  
+                    </div>
+                        <div id="sec6">
+                                <button class="btn1" id="bt61"  >1</button>
+                                <button class="btn2" id="bt62"  >1</button>
+                            </div>
+                 <div id="sec7">
+                        <button class="btn1" id="bt71"  >1</button>
+                        <button class="btn2" id="bt72"  >1</button>
+                </div>
+            <div id="sec8">
+                <button class="btn1" id="bt81"  >1</button>
+                <button class="btn2" id="bt82"  >1</button>
+                   </div>
+            <div id="sec9">
+                    <button class="btn1" id="bt91"  >1</button>
+                    <button class="btn2" id="bt92"  >1</button>
+            </div>
+            </div>
+            <div id="kht"><button id="sutn" onclick="check()">submit</button></div>  
+
+        </div> 
+      
+        <script>
+
+   
+         var seca = document.getElementById('bt11');
+         var diva = document.getElementById('sec1');
+         var secb = document.getElementById('bt12');
+         var divb = document.getElementById('sec1');
+         
+         var seca2 = document.getElementById('bt21');
+         var diva2 = document.getElementById('sec2');
+         var secb2 = document.getElementById('bt22');
+         var divb2 = document.getElementById('sec2');
+         
+         var seca3 = document.getElementById('bt31');
+         var diva3 = document.getElementById('sec3');
+         var secb3 = document.getElementById('bt32');
+         var divb3 = document.getElementById('sec3');
+         
+         var seca4 = document.getElementById('bt41');
+         var diva4 = document.getElementById('sec4');
+         var secb4= document.getElementById('bt42');
+         var divb4= document.getElementById('sec4');
+         
+         var seca5 = document.getElementById('bt51');
+         var diva5 = document.getElementById('sec5');
+         var secb5 = document.getElementById('bt52');
+         var divb5 = document.getElementById('sec5');
+         
+         var seca6= document.getElementById('bt61');
+         var diva6 = document.getElementById('sec6');
+         var secb6 = document.getElementById('bt62');
+         var divb6 = document.getElementById('sec6');
+         
+         var seca7 = document.getElementById('bt71');
+         var diva7 = document.getElementById('sec7');
+         var secb7 = document.getElementById('bt72');
+         var divb7 = document.getElementById('sec7');
+         
+         var seca8 = document.getElementById('bt81');
+         var diva8 = document.getElementById('sec8');
+         var secb8 = document.getElementById('bt82');
+         var divb8 = document.getElementById('sec8');
+         
+         var seca9 = document.getElementById('bt91');
+         var diva9 = document.getElementById('sec9');
+         var secb9 = document.getElementById('bt92');
+         var divb9= document.getElementById('sec9');
+          
+         seca.addEventListener('click',change);
+         secb.addEventListener('click',chang);
+         
+         seca2.addEventListener('click',change2);
+         secb2.addEventListener('click',chang2);
+         
+         seca3.addEventListener('click',change3);
+         secb3.addEventListener('click',chang3);
+         
+         seca4.addEventListener('click',change4);
+         secb4.addEventListener('click',chang4);
+         
+         
+         seca5.addEventListener('click',change5);
+         secb5.addEventListener('click',chang5);
+         
+         seca6.addEventListener('click',change6);
+         secb6.addEventListener('click',chang6);
+         
+         seca7.addEventListener('click',change7);
+         secb7.addEventListener('click',chang7);
+         
+         seca8.addEventListener('click',change8);
+         secb8.addEventListener('click',chang8);
+         
+         seca9.addEventListener('click',change9);
+         secb9.addEventListener('click',chang9);
+
+
+         function change(){
+            
+             diva.style.backgroundColor='blue';
+             //console.log(1);
+        }
+         
+         function chang(){
+            
+            divb.style.backgroundColor='red';
+         
+        }
+        
+        function change2(){
+            
+            diva2.style.backgroundColor='blue';
+       }
+        
+        function chang2(){
+           
+           divb2.style.backgroundColor='red';
+        
+       }
+       
+       function change3(){
+            
+            diva3.style.backgroundColor='blue';
+       }
+        
+        function chang3(){
+           
+           divb3.style.backgroundColor='red';
+        
+       }
+       
+       function change4(){
+            
+            diva4.style.backgroundColor='blue';
+       }
+        
+        function chang4(){
+           
+           divb4.style.backgroundColor='red';
+        
+       }
+       
+       function change5(){
+            
+            diva5.style.backgroundColor='blue';
+       }
+        
+        function chang5(){
+           
+           divb5.style.backgroundColor='red';
+        
+       }
+       
+       function change6(){
+            
+            diva6.style.backgroundColor='blue';
+       }
+        
+        function chang6(){
+           
+           divb6.style.backgroundColor='red';
+        
+       }
+       
+       function change7(){
+            
+            diva7.style.backgroundColor='blue';
+       }
+        
+        function chang7(){
+           
+           divb7.style.backgroundColor='red';
+        
+       }
+       
+       function change8(){
+            
+            diva8.style.backgroundColor='blue';
+       }
+        
+        function chang8(){
+           
+           divb8.style.backgroundColor='red';
+        
+       }
+       
+       function change9(){
+            
+            diva9.style.backgroundColor='blue';
+       }
+        
+        function chang9(){
+           
+           divb9.style.backgroundColor='red';
+        
+       }
+       function check()       {
+           var b1=document.getElementById("sec1").style.backgroundColor;
+           var b2=document.getElementById("sec2").style.backgroundColor;
+           var b3=document.getElementById("sec3").style.backgroundColor;
+            var b4=document.getElementById("sec4").style.backgroundColor;
+            var b5=document.getElementById("sec5").style.backgroundColor;
+            var b6=document.getElementById("sec6").style.backgroundColor;
+            var b7=document.getElementById("sec7").style.backgroundColor;
+            var b8=document.getElementById("sec8").style.backgroundColor;
+            var b9=document.getElementById("sec9").style.backgroundColor;
+           
+           if ((b1=="blue" && b2=="blue" && b3=="blue") || (b4=="blue" && b5=="blue" && b6=="blue") || (b7=="blue" && b8=="blue" && b9=="blue") || (b1=="blue" && b4=="blue" && b7=="blue") || (b2=="blue" && b5=="blue" && b8=="blue") || (b3=="blue" && b6=="blue" && b9=="blue") || (b1=="blue" && b5=="blue" && b9=="blue")|| (b3=="blue" && b5=="blue" && b7=="blue") )
+           {
+               alert("player1 wins");
+               
+           }
+           else if ((b1=="red" && b2=="red" && b3=="red") || (b4=="red" && b5=="red" && b6=="red") || (b7=="red" && b8=="red" && b9=="red") || (b1=="red" && b4=="red" && b7=="red") || (b2=="red" && b5=="red" && b8=="red") || (b3=="red" && b6=="red" && b9=="red") || (b1=="red" && b5=="red" && b9=="red")|| (b3=="red" && b5=="red" && b7=="red") )
+           {
+               alert("player2 wins");
+           }
+//console.log(b2);
+          document.location.reload();
+       }
+      
+
+    
+        </script>
+        </body>
+ </html>

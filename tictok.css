@@ -1,0 +1,187 @@
+ body{
+     background:black;
+ }
+ span{
+     color:white;
+     font-size: 75px;
+     padding-top:60px;
+     padding-left:35%;
+ }
+ #bigboard
+ {
+    width: 35%;
+    display: grid;
+    grid-gap:3px;
+    grid-template-columns: repeat(1,1fr);
+    margin-left:37%;
+    margin-top:10%;
+
+ }
+ 
+ #board
+{  
+    background: black;
+    align-content: center;
+    display: grid;
+    grid-gap:3px;
+    grid-template-columns: repeat(3,1fr);
+    height: 340px;
+    width: 100%;
+    
+    
+}
+#sutn{
+ font-size: 40px;
+ border-radius: 20px;
+ background: black;
+color: white;
+}
+
+.btn1
+{
+    background: blue;
+    border-radius: 20px;
+    margin-top:10px;
+}
+.btn2
+{
+    background: red;
+    margin-top:40px;
+    border-radius: 20px;
+}
+
+#sec1
+{
+    background: white;
+    height: 100px;
+    
+    }
+
+#sec2
+{
+    
+    background:white;
+    height: 100px;
+}
+#sec3
+{
+    background:white;
+    height: 100px;
+    }
+
+#sec4
+{
+    
+    background:white;
+    height: 100px;
+}
+#sec5
+{
+    background:white;
+    height: 100px;
+    }
+
+#sec6
+{
+    
+    background:white;
+    height: 100px;
+}    
+#sec7
+{
+    background:white;
+    height: 100px;
+    }
+
+#sec8
+{
+    
+    background:white;
+    height: 100px;
+}
+#sec9
+{
+    background:white;
+        height: 100px;
+    }
+
+button{
+    margin-left:10px;
+    border-color: brown;
+
+    
+}    
+
+
+@media(max-width:500px) {
+    #sec1
+    {
+        background: white;
+        height: 100px;
+        width:50px;
+        
+        }
+    
+    #sec2
+    {
+        
+        background:white;
+        height: 100px;
+        width:50px;
+    }
+    #sec3
+    {
+        background:white;
+        height: 100px;
+        width:50px;
+        }
+    
+    #sec4
+    {
+        
+        background:white;
+        height: 100px;
+        width:50px;
+    }
+    #sec5
+    {
+        background:white;
+        height: 100px;
+        width:50px;
+        }
+    
+    #sec6
+    {
+        
+        background:white;
+        height: 100px;
+        width:50px;
+    }    
+    #sec7
+    {
+        background:white;
+        height: 100px;
+        width:50px;
+        }
+    
+    #sec8
+    {
+        
+        background:white;
+        height: 100px;
+        width:50px;
+    }
+    #sec9
+    {
+        background:white;
+            height: 100px;
+            width:50px;
+               }
+
+               span{
+                color:white;
+                font-size: 40px;
+                padding-top:60px;
+                padding-left:35%;
+            }
+            }
